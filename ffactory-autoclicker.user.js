@@ -5,7 +5,7 @@
 // @grant       none
 // @version     1.0
 // @author      mudachyo
-// @icon        https://mudachyo.codes/assets/ffactory/logo.jpg
+// @icon        https://mudachyo.codes/ffactory/logo.jpg
 // @downloadURL https://github.com/mudachyo/Friends-Factory/raw/main/ffactory-autoclicker.user.js
 // @updateURL   https://github.com/mudachyo/Friends-Factory/raw/main/ffactory-autoclicker.user.js
 // @homepage    https://github.com/mudachyo/Friends-Factory
