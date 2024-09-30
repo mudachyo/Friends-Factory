@@ -3,7 +3,7 @@
 // @namespace   Violentmonkey Scripts
 // @match       https://ffabrika.com/*
 // @grant       none
-// @version     1.0
+// @version     1.1
 // @author      mudachyo
 // @icon        https://mudachyo.codes/ffactory/logo.jpg
 // @downloadURL https://github.com/mudachyo/Friends-Factory/raw/main/ffactory-autoclicker.user.js
@@ -115,6 +115,7 @@ function clickElement() {
             simulatePointerEvent(firstElement, 'pointerup', { clientX: coords.x, clientY: coords.y, pressure: 0, pointerId: 5 });
             simulateTouchEvent(firstElement, 'touchend', { clientX: coords.x, clientY: coords.y, pressure: 0, pointerId: 5 });
             firstElement.click();
+            console.clear();
         }
     }
 }
