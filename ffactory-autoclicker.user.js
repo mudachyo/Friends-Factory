@@ -80,8 +80,8 @@ function simulateTouchEvent(element, type, options = {}) {
 function checkEnergy() {
     const energyElement = document.querySelector('#__next > div.sc-89da68c-0.buCEaZ > div > div > div > div > div > div.sc-988de50f-0.hIsbk.sc-d79ddde7-1.eMBvoS > div.sc-988de50f-0.bVMKAa > div.sc-988de50f-0.cyTaIg > div.sc-988de50f-0.cgRPSF > span.sc-ddd208da-0.jBYIpq');
     if (energyElement) {
-        const energyText = energyElement.textContent;
-        const currentEnergy = parseFloat(energyText.replace(',', '.'));
+        const energyText = energyElement.textContent.replace(',', '');
+        const currentEnergy = parseFloat(energyText);
 
         return currentEnergy;
     }
